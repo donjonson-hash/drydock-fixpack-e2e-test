@@ -1,6 +1,6 @@
 import Stripe from "stripe";
 
-const stripe = new Stripe("AKIAIOSFODNN7EXAMPLE");
+const stripe = new Stripe(process.env.AWS_ACCESS_KEY_ID!);
 
 export async function POST(req: Request) {
   const session = await stripe.checkout.sessions.create({
