@@ -4,3 +4,5 @@ Deliberate test fixture for Drydock's end-to-end path: free audit -> Fix Pack
 purchase -> pull request. Every credential below is fake and was never valid.
 
 <!-- browser walkthrough 2026-08-05 -->
+
+<!-- walkthrough 2 -->
